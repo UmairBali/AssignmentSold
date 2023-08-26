@@ -1,0 +1,40 @@
+.allnav{
+    padding-left: 5rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.allbutton{
+    display: flex;
+    align-items: center;
+}
+.engbtn{
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+    padding-right: 0.5rem
+}
+.navfull{
+    border-bottom: 0.2rem solid purple;
+}
+.navfull:hover{
+    border-bottom: 0.2rem solid orange;
+}
+.eng{
+    color: black;
+    border-color: black;
+    padding-right: 0.5rem;
+}
+
+.imgicon{
+    width: 4.5rem;
+    height: 4.5rem;
+}
+.homess:hover{
+    color: blue;
+}
+.flgicon{
+color: black;
+font-size: 20px !important;
+}

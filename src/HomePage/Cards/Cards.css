@@ -1,0 +1,123 @@
+.cardo{
+    background-image: url('./bridge.jpeg');
+    height: 12rem;   
+}
+.paet{
+    display: flex;
+    flex-direction: row;
+}
+.hdbtn{
+    background-color: red !important;
+    font-size: 10px !important;
+    /* border-radius: 20% !important; */
+
+}
+.hdb{
+    margin-top: 1rem;
+}
+.wasprice{
+    color: red;
+}
+.nowprice{
+    color: #02549e ;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+}
+.allnowdb{
+    display: flex;
+    flex-direction: row;
+}
+
+.sqt{
+    font-size: 12px;
+}
+.condo{
+    background-color: purple !important;
+    font-size: 12px !important;
+}
+.firstline{
+    display: flex;
+    flex-direction: row;
+}
+.posted{
+    color: #02549e;
+    margin-top: 1rem;
+    padding-left: 6.5rem; 
+}
+.comparebtn{
+    background-color:#c5c5c5 !important;
+    color:  grey !important;
+    display: flex !important;
+    align-items: center !important;
+}
+.feb{
+    color: black;
+}
+.comicon{
+    display: flex;
+    flex-direction: row;
+}
+.heart{
+    color: #02549e;
+    display: flex;
+    align-items: center;
+    margin-left: 4.5rem;
+}
+.shre{
+    color: #02549e;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+.heart:hover{
+    color: red;
+    display: flex;
+    align-items: center;
+    margin-left: 4.5rem;
+}
+.clode{
+    color: red;
+    padding-left: 3.5rem;
+}
+.idbtn{
+    background-color: white !important;
+    color: black !important;
+    font-size: 10px !important; 
+}
+.idb{
+    margin-top: 1rem;
+    padding-left: 6.8rem;
+}
+.bedicn{
+    color: red;
+    padding-top: 114px;
+}
+.parenttwo{
+    display: flex;
+    flex-direction: row;
+    /* background-color: black; */
+}
+.bathicn{
+    color: white;
+    padding-top: 114px;
+    padding-left: 1rem;
+}
+.parkicn{
+    color: orange;
+    padding-top: 114px;
+    padding-left: 1rem;
+}
+.crst{
+    height: 600px;
+    overflow-y: scroll;
+}
+.crst2{
+    height: 420px;
+    width: 260px;
+    /* overflow-y: scroll; */
+}
+.fef{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}

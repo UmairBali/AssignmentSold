@@ -1,0 +1,35 @@
+.sellpro{
+    background-color: #025490;
+    height: 6rem;
+}
+.dyw{
+    color: aliceblue;
+    font-weight: bolder;
+    padding-left: 5.5rem;
+}
+.wanttosell{
+    color: #025490 !important;
+    background-color: aliceblue !important;
+}
+.aligncenter{
+    display: flex;
+    align-items: center;
+}
+.justifycenter{
+    display: flex;
+    justify-content: center;
+}
+.thisis{
+    flex-direction: column;
+}
+.btnlist{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 8rem;
+    /* padding-left: 20rem; */
+}
+.hdingtext{
+    font-weight: bolder;
+    font-size: 1rem;
+}
