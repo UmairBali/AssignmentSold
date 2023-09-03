@@ -1,0 +1,26 @@
+.rtrt{
+font-weight: bolder;
+font-size: 2rem;
+    color: black;
+
+
+}
+.bjj{
+    color: #0253a0;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 1.7rem;
+}
+.joo{
+    color: #f9a23e;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-weight:500 ;
+}
+.btn{
+    color: white;
+justify-content: center;
+background-color: #007aff;
+font-weight: bold;
+display: flex;
+}

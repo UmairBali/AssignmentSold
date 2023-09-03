@@ -1,0 +1,47 @@
+.txt{
+    font-size: 2rem ;
+    font-weight: 900;
+    justify-content: center;
+}
+.yyy{
+    display: flex;
+    align-items: end;
+}
+.jjj{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.mmm{
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: white;
+    color: #02549e;
+}
+.hhh{
+    background-color: #02549e;
+    color: white;
+}
+.iiii{
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+.ssss{
+    font-size: 1rem;
+    font-weight: 100;
+}
+.uu{
+
+color:#02549e ;
+font-size: 2rem !important;
+}
+.uuu{
+    font-size: 2.5rem !important;
+    font-weight: 500;
+    color:#02549e ;
+}
+.jjjj{
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
