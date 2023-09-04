@@ -8,6 +8,7 @@ import Cards from "./Components/cards/Cards";
 import Footer from "./Components/Footer/Footer";
 import Catagories from "./Components/Catagories/Catagories";
 import Webheading from "./Components/Webheading/Webheading";
+import Tabz from "./Components/Tabz/Tabz";
 function App() {
   return (
     <div>
@@ -20,7 +21,7 @@ function App() {
       <Cards/>
       <Catagories/>
       <Webheading/>
-heiii
+       <Tabz/>
       <Footer/>
 
 

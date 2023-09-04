@@ -21,6 +21,9 @@
     background-color: #02549e;
     color: white;
 }
+.hjj{
+    background-color: #02549e;
+}
 .iiii{
     font-size: 1.4rem;
     font-weight: 900;
@@ -44,4 +47,11 @@ font-size: 2rem !important;
     font-weight: 400;
     display: flex;
     justify-content: center;
+}
+.rr{
+    background-color: #02549e;
+
+ 
+}.nn{
+    background-color: white;
 }

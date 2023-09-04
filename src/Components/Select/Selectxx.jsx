@@ -18,12 +18,15 @@ export default function Selectxx() {
     setAge(event.target.value);
   };
   return (
-    <div className="container mt-5">
+    <div className=" mt-5">
+      <div className="container">
       <div className=" mt-5 dyy">ASSIGNMENTS</div>
-      <div className="row">
+      </div>
+ <div className="container">
+ <div className="row mt-1">
         <div className="col-lg-11 borders p-2">
-          <div className="row">
-            <div className="col-lg-4">
+          <div className="row p-1">
+            <div className="col-lg-4 ">
               <FormControl fullWidth>
                 <InputLabel id="demo-simple-select-label">
                   "Select By Regioon,City,Street ID"
@@ -52,8 +55,8 @@ export default function Selectxx() {
               </div>
             </div>
             <div className="col-lg-5">
-              <div className="row">
-                <div className="col-lg-4 p-0">
+              <div className="row p-1">
+                <div className="col-lg-4 p-1">
                   <div>
                     <FormControl fullWidth>
                       <InputLabel id="demo-simple-select-label">
@@ -74,7 +77,7 @@ export default function Selectxx() {
                     </FormControl>
                   </div>
                 </div>
-                <div className="col-lg-4 p-0">
+                <div className="col-lg-4 p-1">
                   <div>
                     <FormControl fullWidth>
                       <InputLabel id="demo-simple-select-label">
@@ -95,7 +98,7 @@ export default function Selectxx() {
                     </FormControl>
                   </div>
                 </div>
-                <div className="col-lg-4 p-0">
+                <div className="col-lg-4 p-1">
                   <div>
                     <FormControl fullWidth>
                       <InputLabel id="demo-simple-select-label">
@@ -124,7 +127,9 @@ export default function Selectxx() {
           <SearchOutlinedIcon className="iconsearch" />
         </div>
       </div>
-      <div className="row">
+ </div>
+<div className="container">
+<div className="row">
         <div className="col-lg-6 gkkk mt-3">AT LOW PRICE (RESULTS)</div>
         <div className="col-lg-6 alignright  mt-3">
           {/* sorting button div */}
@@ -169,6 +174,8 @@ export default function Selectxx() {
           </div>
         </div>
       </div>
+</div>
+
     </div>
   );
 }

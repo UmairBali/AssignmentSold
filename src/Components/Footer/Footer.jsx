@@ -9,9 +9,11 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 export default function Footer() {
   return (
-    <div className="container pt-5">
+    <div className="  pt-5">
         {/* DIV for footer heading */}
-      <div className="row hhh mb-2 p-4">
+<div className="rr">
+<div className="container">
+<div className="row  hhh mb-2 p-4">
         <div className="col-lg-7 jjj mt-2">
           Do You Want To Sell Your Property?
 
@@ -20,7 +22,10 @@ export default function Footer() {
             <button type="button " className="btn mmm">List Your Property Now</button>
           </div>
       </div>
+</div>
+</div>
       {/* div for explore and other stuff */}
+<div className="container">
 <div className="row">
     {/* div for explore coloumn */}
     <div className="col-lg-3  mt-5">
@@ -132,16 +137,21 @@ Privacy policy
 
     </div>
 </div>
+</div>
 
 {/* div for copyright section */}
-<div>
-<div className="row hhh mb-2 p-2">
-        <div className="col-lg-12 jjjj justifycentre ">
+<div className="rr">
+  <div className="container">
+  <div className="rr">
+<div className="row hhh rr mb-2 p-2">
+        <div className="col-lg-12 rr jjjj justifycentre ">
       Copyright 2021-2022 AssignmentSold.Ca All Rights Reserved
 
         </div>
 
       </div>
+</div>
+  </div>
 </div>
 
     </div>

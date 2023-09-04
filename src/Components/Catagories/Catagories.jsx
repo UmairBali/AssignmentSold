@@ -2,10 +2,11 @@ import React from 'react'
 import "./Catagories.css";
 export default function Catagories() {
   return (
-    <div className='container '>
-      <div className="row pt-5">
+    <div className='rr '>
+<div className="container">
+<div className="row pt-5">
         {/* div for search by catagories heading */}
-        <div className="col-lg-12  pt-4 bbb">
+        <div className="col-lg-12  mt-1 bbb">
             Search by Catagories
         </div>
         {/* div for bottom catagories */}
@@ -67,6 +68,7 @@ Assignments in Toronto
 </div>
 </div>
       </div>
+</div>
     </div>
   )
 }

@@ -16,7 +16,7 @@ export default function Navbars() {
         <Container>
           <Nav className="me-auto hyy">
             <img className='imagofnav' src={icon} alt="" />
-            <div className="paddingleft"></div>
+            <div className="paddingleft mb-5"></div>
             <Nav.Link className='ffff ' href="#home">Listing</Nav.Link>
             <Nav.Link className='ffff' href="#features">List Properties</Nav.Link>
             <Nav.Link className='ffff'href="#pricing">Final Deals</Nav.Link>

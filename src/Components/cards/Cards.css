@@ -1,68 +1,63 @@
-.tttt{
-  width: 100%;
-    height: 301px !important;
-    
+.cardWidth{
+    width: 290px !important;
+    background-color: #02549e;
 }
-.gggggg{
-background-color: black;
-    height: 12rem;
-    width: 301px;
-    background-image: white;
-}
-.carddd{
-    background-color: aliceblue;
-    background-image: aqua;
+.images{
     background-size: cover;
-    /* width: 301px; */
-    height: 12rem;
-background-image: url(../images/bridge.jpeg);
-padding-left: 6px;
+    background-image: url("../images/bridge.jpeg");
+    background-repeat: no-repeat;
+    height: 10rem !important;
+   
 
 }
-.bte{
-    border-radius: 22px;
-border-color: black;
-   background-color: #ca0024;
+.cardbody{
+    background-color: white;
+}
+.btn1{
+    border: none;
+    border-radius: 5px;
+    background-color: #6c35a3;
     color: white;
-    font-size: 12px;
-
 }
-.ioi{
-    border-radius: 6px;
-    background-color: blueviolet;
+.postebbtn{
+color: #4380b7;
 }
-.btnn{
-    font-size: 14px;
-}
-.bluetxt{
-    color: #0f5da3;
+.datebtn{
+    color: black;
+    font-size: 15px;
 }
 .jbh{
-color: #ca0024;
-font-weight: 900;
-font-size: 15px;
-text-decoration: line-through;
-}
-.bhhh{
-    text-decoration: line-through;
-    font-size: 12px;
-}
-.tyty{
-    color: #02549e;
-    font-size: 1rem;
-    font-weight: 900;
-}
-.fiii{
     color: #ca0024;
 }
-.jjjj{
-    font-size: 1.2rem;
-    font-weight: 900;
+.ghghg{
+    color: #02549e;
 }
-.bbbb{
-    color: grey;
-    font-size: 12px;
-    font-weight: 100;
-    padding: 0.5rem;
-  }
+.ghghg2{
+    color: black;
+}
+.hmm{
+    justify-content: right;
 
+}
+.sae{
+    color: #02549e;
+}
+.sae2{
+    color: black; 
+}
+.kkk{
+    color: #ca0024;
+}
+.ptxt{
+    font-size: 12px;
+}
+.yyy{
+width: 100%;
+height: 100%;
+
+}
+.jkk{
+border-radius: 2px;
+
+
+}
