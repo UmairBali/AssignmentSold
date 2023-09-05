@@ -1,5 +1,5 @@
 .cardWidth{
-    width: 290px !important;
+    width: 270px !important;
     background-color: #02549e;
 }
 .images{
@@ -7,11 +7,46 @@
     background-image: url("../images/bridge.jpeg");
     background-repeat: no-repeat;
     height: 10rem !important;
-   
+}
+.imgbkg{
+    background-color: rgba(0, 0, 0, 0.358) !important;
+    height: 10rem !important;
+}
+.dealsbtn{
+    border: none;
+    border-radius: 12px;
+    background-color: #ca0024;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+}
+.idbtn{
+    background-color: white;
+    color: #02549e;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 9rem;
+}
+.bedbtn{
+    border: none;
+    background-color: rgba(0, 0, 0, 0); 
+    color: white;
+    font-size: 11px; 
+    margin-top: 6rem;
+}
+.iconb{
+    font-size: 18px !important;
+
+
+
 
 }
 .cardbody{
     background-color: white;
+    padding: 0px;
+    overflow-x: hidden;
 }
 .btn1{
     border: none;
@@ -28,7 +63,17 @@ color: #4380b7;
 }
 .jbh{
     color: #ca0024;
+    text-decoration: line-through;
 }
+.pname{
+    font-size: 13px;
+    font-weight: bold;
+}
+.cname{
+    font-size: 13px;
+    font-weight: bold;
+}
+
 .ghghg{
     color: #02549e;
 }
@@ -60,4 +105,13 @@ height: 100%;
 border-radius: 2px;
 
 
+}
+.dgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.scroller{
+    height: 600px;
+    overflow-y: scroll;
 }
