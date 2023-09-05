@@ -14,3 +14,10 @@
     font-size: 40px;
     font-weight: 900;
 }
+.c-btn{
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+
+}
