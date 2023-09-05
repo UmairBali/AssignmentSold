@@ -1,0 +1,10 @@
+.s-btn{
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    justify-content: center;
+border-radius: 4px;
+margin-left: 29rem;
+font-weight: 600;
+font-size: 1.1rem;
+}
