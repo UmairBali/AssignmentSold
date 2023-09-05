@@ -20,7 +20,7 @@ font-size: 2rem;
 .btn{
     color: white;
 justify-content: center;
-background-color: #007aff;
+/* background-color: #007aff; */
 font-weight: bold;
 display: flex;
 }
