@@ -1,0 +1,25 @@
+.rko{
+    width: 100% !important;
+    border: none;
+    height: 100%;
+}
+.j-cntr{
+    justify-content: center;
+    font-size: 5rem;
+}
+.np{
+  
+    border: none;
+ width: 100%;
+ background-color: #007fff;
+ color: white;
+border-radius: 8px;
+}
+.test2{
+    background-color: black;
+    color: aliceblue;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

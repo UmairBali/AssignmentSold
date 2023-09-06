@@ -36,6 +36,9 @@ align-items: center !important;
 .borders{
     border: 1px solid #CCCCCC;
 }
+.btxt{
+    font-size: 2px;
+}
 .iconsearch{
     background-color: #02549e;
     color: white !important;

@@ -17,6 +17,7 @@ export default function DrawerRangeSlider() {
   const incrementValue = 0.5;
 
   return (
+    <div className="mt-3">
     <Box sx={{ width: "100%" }}>
       <Slider
         className="slidercolor"
@@ -30,5 +31,6 @@ export default function DrawerRangeSlider() {
         sx={{ color: "#F6941C" }}
       />
     </Box>
+    </div>
   );
 }

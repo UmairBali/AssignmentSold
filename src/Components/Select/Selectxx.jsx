@@ -11,6 +11,9 @@ import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 import UnfoldLessIcon from "@mui/icons-material/UnfoldLess";
 import ListIcon from '@mui/icons-material/List';
 import CloseFullscreenIcon from '@mui/icons-material/CloseFullscreen';
+import FilterListIcon from '@mui/icons-material/FilterList';
+import KingBedIcon from '@mui/icons-material/KingBed';
+import ApartmentIcon from '@mui/icons-material/Apartment';
 export default function Selectxx() {
   const [age, setAge] = React.useState("");
 
@@ -25,8 +28,8 @@ export default function Selectxx() {
  <div className="container">
  <div className="row mt-1">
         <div className="col-lg-11 borders p-2">
-          <div className="row p-1">
-            <div className="col-lg-4 ">
+          <div className="row ">
+            <div className="col-lg-4 mt-2 ">
               <FormControl fullWidth>
                 <InputLabel id="demo-simple-select-label">
                   "Select By Regioon,City,Street ID"
@@ -55,12 +58,12 @@ export default function Selectxx() {
               </div>
             </div>
             <div className="col-lg-5">
-              <div className="row p-1">
-                <div className="col-lg-4 p-1">
-                  <div>
+              <div className="row ">
+                <div className="col-lg-5 p-1 mt-1">
+                 
                     <FormControl fullWidth>
                       <InputLabel id="demo-simple-select-label">
-                        "Building Type"
+                        <ApartmentIcon/>Building Type
                       </InputLabel>
                       <Select
                         labelId="demo-simple-select-label"
@@ -75,13 +78,13 @@ export default function Selectxx() {
                         <MenuItem value={30}>Detached</MenuItem>
                       </Select>
                     </FormControl>
-                  </div>
+               
                 </div>
-                <div className="col-lg-4 p-1">
+                <div className="col-lg-3  mt-1 p-1">
                   <div>
                     <FormControl fullWidth>
                       <InputLabel id="demo-simple-select-label">
-                        "Beds"
+                        <KingBedIcon/>Beds
                       </InputLabel>
                       <Select
                         labelId="demo-simple-select-label"
@@ -98,11 +101,11 @@ export default function Selectxx() {
                     </FormControl>
                   </div>
                 </div>
-                <div className="col-lg-4 p-1">
+                <div className="col-lg-4 mt-1 spad p-1">
                   <div>
                     <FormControl fullWidth>
                       <InputLabel id="demo-simple-select-label">
-                        "Filters"
+                        <FilterListIcon/>Filters
                       </InputLabel>
                       <Select
                         labelId="demo-simple-select-label"
