@@ -23,3 +23,19 @@ border-radius: 8px;
     align-items: center;
     justify-content: center;
 }
+.bgyy{
+   background-color: #41c4f8;
+}
+.subbtn{
+    border: none;
+    background-color: #007fff;
+    color: white;
+border-radius: 3px;
+}
+.tat{
+    font-size: 2rem;
+}
+.tat2{
+    font-size: 3rem;
+    font-weight: 800;
+}

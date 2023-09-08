@@ -2,60 +2,61 @@ import React from "react";
 import TextField from "@mui/material/TextField";
 import "../Finaldeals///Finaldeals.css";
 import { useState } from "react";
+import TextFieldSet1 from "./SubComponents/TextFieldSet1";
+import Textfieldset2 from "./SubComponents/Textfieldset2";
 export default function Works() {
   const [name, setname] = useState();
   const [age, setage] = useState();
   const [city, setcity] = useState();
-  const [result, setresult] = useState(2);
+  const [made, setmade] = useState();
+  const [claim, setclaim] = useState();
+  const [child, setChild] = useState("");
 const [email, setemail] = useState();
-const [other, setother] = useState();
-const [number, setnumber] = useState();
-const [password, setpassword] = useState(); 
-const [ok, setok] = useState(10);
-
+const [number, setnumber] =useState();
+const [other, setother] =useState();
+const [umair, setumair] =useState();
 
 
 
   const handlenamechange = (event) => {
     setname(event.target.value);
   };
-  const valueagechange = (event) => {
+  const handleagechange = (event) => {
     setage(event.target.value);
   };
-  const valuecitychange = (event) => {
+  const handlecitychange = (event) => {
     setcity(event.target.value);
   };
-  const handleokclick = () => {
-    setresult(1);
-  };
-  const handlehideclick = () => {
-setok(ok-1)
-  }
-  const handlehelpclick = () => {
-    setok(ok+1);
-  }
-  const handlerkclick = () => {
-    setresult(0);
-  };
-  const handleemailchange =(event) => {
+  const valueemailchange = (event) => {
     setemail(event.target.value);
   };
-  const handlepasswordchange =(event) => {
-    setpassword(event.target.value);
+  const valuenumberchange =(event) => {
+    setnumber(event.target.value);
   };
-  const handleotherchange =(event) => {
+  const valueotherchange =(event) => {
     setother(event.target.value);
   };
-  const handlenumberchange =(event) => {
-    setnumber(event.target.value);
+  const handlesubmitclick = () => {
+    setmade(1);
+  };
+  const handleclaimclick = () => {
+    setclaim(1);
   };
 
   return (
     <div className="container">
       <div className="row mt-3 j-cntr">WORK PAGE</div>
-      <div>Result state is {result}</div>
+      <p>
+        You have 3 input fields, when you enter the data in the three input
+        fields and clcik on the submit button, Text will be shown below the
+        button, and the Text State <strong>Hey! You made it</strong> and under
+        the text, there will be a button which state{" "}
+        <strong>Click to claim rewards</strong> and after clicking on that
+        button, another text box appears which state{" "}
+        <strong>Booyaah! We did it! AKA Rewards Claimed</strong>
+      </p>
       <div className="row mt-5">
-        <div className="col-lg-4">
+        <div className="col-lg-4 bgy">
           <TextField
             id="outlined-basic"
             label="Name"
@@ -64,102 +65,67 @@ setok(ok-1)
             onChange={handlenamechange}
           />
         </div>
-        <div className="col-lg-4">
+        <div className="col-lg-4 bgy">
           <TextField
             id="outlined-basic"
             label="Age"
             variant="outlined"
             value={age}
-            onChange={valueagechange}
+            onChange={handleagechange}
           />
         </div>
-        <div className="col-lg-4">
+        <div className="col-lg-4 bgy">
           <TextField
             id="outlined-basic"
             label="City"
             variant="outlined"
             value={city}
-            onChange={valuecitychange}
+            onChange={handlecitychange}
           />
         </div>
       </div>
+      <div>
+
+      </div>
+      <h1>
+      {umair} 
+      </h1>
+      <TextFieldSet1 child={child} setChild={setChild} name={name} age={age} city={city}/>
+     
+      <div className="container">
       <div className="row mt-5">
-        <div className="col-lg-2">
-          <button onClick={handleokclick} className="np " type="button">
-            Hide Results
-          </button>
+        <div className="col-lg-4 bgy">
+          <TextField
+            id="outlined-basic"
+            label="email"
+            variant="outlined"
+            value={email}
+            onChange={valueemailchange}
+
+          />
         </div>
-        <div className="col-lg-6">
-          {/* When Click on the button handleRkClick function is called */}
-          <button
-            onClick={handlerkclick}
-            className="btn btn-warning "
-            type="button"
-          >
-            Click Here to see the Results
-          </button>
+        <div className="col-lg-4 bgy">
+          <TextField
+            id="outlined-basic"
+            label="Number"
+            variant="outlined"
+            value={number}
+            onChange={valuenumberchange}
+
+          />
+        </div>
+        <div className="col-lg-4 bgy">
+          <TextField
+            id="outlined-basic"
+            label="Other"
+            variant="outlined"
+            value={other}
+            onChange={valueotherchange}
+     
+          />
         </div>
       </div>
-      <div className="mt-5">
-        {result === 0 ? (
-          <div>
-            {name} {age} {city}
-          </div>
-        ) : (
-          <div>Results are Hidden</div>
-        )}
-      </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <div className="row">
-        <div className="test2">THis is the Test 2</div>
-        <div className="row mt-5">
-          <div className="col-lg-3"><TextField id="outlined-basic" label="email" variant="outlined" value={email} onChange={handleemailchange} /></div>
-          <div className="col-lg-3"><TextField id="outlined-basic" label="password" variant="outlined" value={password} onChange={handlepasswordchange} /></div>
-          <div className="col-lg-3"><TextField id="outlined-basic" label="other" variant="outlined" value={other} onChange={handleotherchange} /></div>
-          <div className="col-lg-3"><TextField id="outlined-basic" label="Number" variant="outlined" value={number} onChange={handlenumberchange} /></div>
-        </div>
-        <div className="row mt-5">
-          <div className="col-lg-3">
-          State is {ok}
-          </div>
-          
-        </div>
-
-        <div className="mt-5">
-      {ok ===5 ? (
-        <div>
-              Hello! Please Hide me! Hint: Use State 5
-        </div>
-      ) : (
-        <div>
-          {email} {password} {other} {number}
-        </div>
-      )}
-        </div>
-       <div className="row mt-5">
-        <div className="col-lg-3">
-          <button onClick={handlehelpclick} className="btn btn-warning w-100">
-            Help it
-          </button>
-        </div>
-        <div className="col-lg-3">
-          <button onClick={handlehideclick} className="btn btn-warning w-100">
-            Hide it
-          </button>
-        </div>
-       </div>
+      <Textfieldset2 umair={umair} setumair={setumair} email={email} number={number} other={other} />
       </div>
     </div>
   );
