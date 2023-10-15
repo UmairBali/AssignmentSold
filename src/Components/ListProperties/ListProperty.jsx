@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbars from "../HomePage/Navbars/Navbar";
 import TextField from "@mui/material/TextField";
 import "./ListProperties.css";
+import Footer from "../Footer/Footer";
 export default function ListProperty() {
   const [city, setCity] = useState("")
  const [district, setdistrict] = useState()
@@ -135,6 +136,7 @@ export default function ListProperty() {
    
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

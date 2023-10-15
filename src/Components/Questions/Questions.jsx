@@ -17,7 +17,7 @@ export default function Questions() {
               We Can Help!
             </div>
             <div className='col-lg-4 justifycentre '>
-              <button className='primary btn justifycentre col-lg-4'>SUBMIT</button>
+              <button className=' btn btn-primary  col-lg-4'>SUBMIT</button>
             </div>
       
     </div>

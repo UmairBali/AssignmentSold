@@ -17,10 +17,3 @@ font-size: 2rem;
     font-size: 1.7rem;
     font-weight:500 ;
 }
-.btn{
-    color: white;
-justify-content: center;
-/* background-color: #007aff; */
-font-weight: bold;
-display: flex;
-}

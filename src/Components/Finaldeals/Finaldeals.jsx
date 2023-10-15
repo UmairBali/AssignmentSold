@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import TextField from "@mui/material/TextField";
+import Navbars from '../HomePage/Navbars/Navbar';
 import "./Finaldeals.css";
+import { Navbar } from 'react-bootstrap';
+import Footer from '../Footer/Footer';
 export default function Finaldeals() {
   const [city, setCity] = useState()
   const [name, setname] = useState()
@@ -23,6 +26,8 @@ export default function Finaldeals() {
 
 
     <div>
+    
+    <Navbars />
       <div className="container">
         <h1>
           <strong>
@@ -60,6 +65,7 @@ export default function Finaldeals() {
         }
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }

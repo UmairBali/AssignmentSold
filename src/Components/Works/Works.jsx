@@ -4,6 +4,9 @@ import "../Finaldeals///Finaldeals.css";
 import { useState } from "react";
 import TextFieldSet1 from "./SubComponents/TextFieldSet1";
 import Textfieldset2 from "./SubComponents/Textfieldset2";
+import Navbars from "../HomePage/Navbars/Navbar";
+import Footer from "../Footer/Footer";
+
 export default function Works() {
   const [name, setname] = useState();
   const [age, setage] = useState();
@@ -15,8 +18,8 @@ const [email, setemail] = useState();
 const [number, setnumber] =useState();
 const [other, setother] =useState();
 const [umair, setumair] =useState();
-
-
+const [saif, setsaif] =useState();
+const [bostan, setbostan] =useState(0);
 
   const handlenamechange = (event) => {
     setname(event.target.value);
@@ -42,9 +45,13 @@ const [umair, setumair] =useState();
   const handleclaimclick = () => {
     setclaim(1);
   };
+  
 
   return (
+   
+
     <div className="container">
+      <Navbars/>
       <div className="row mt-3 j-cntr">WORK PAGE</div>
       <p>
         You have 3 input fields, when you enter the data in the three input
@@ -124,9 +131,17 @@ const [umair, setumair] =useState();
      
           />
         </div>
+        <div>
+          {bostan ===0 ? (
+            <div>
+              {saif}
+            </div>
+          ):(null)}
+        </div>
       </div>
-      <Textfieldset2 umair={umair} setumair={setumair} email={email} number={number} other={other} />
+      <Textfieldset2 saif={saif} setsaif={setsaif}  umair={umair} setumair={setumair} email={email} number={number} other={other} />
       </div>
+      <Footer/>
     </div>
   );
 }

@@ -54,7 +54,7 @@ const [score, setscore] = useState(0)
         LIVE OFF MARKET INVENTORY
       </div>
       {/* Salman Work */}
-      <div className="salmanwork">
+      {/* <div className="salmanwork">
         <div className="container jaadu">Hello {num}</div>
         <div className="container">
           <div className="row pb-5">
@@ -78,9 +78,9 @@ const [score, setscore] = useState(0)
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Umair Work */}
-      <div className="umairWork">
+      {/* <div className="umairWork">
     <div className="container jaadu">Total Score:  {score}
     <div className="row">
       <div className="col-lg-2">
@@ -98,11 +98,11 @@ const [score, setscore] = useState(0)
      
       
       
-      </div>
+      </div> */}
 
       {/* {num === 3 ? () : ()} */}
 
-      {num === 3 ? (
+      {/* {num === 3 ? (
         <div>
           <div className="container jaadu">Hi! {name}</div>
           <div className="container">
@@ -126,7 +126,7 @@ const [score, setscore] = useState(0)
             </div>
           </div>
         </div>
-      ) : null}
+      ) : null} */}
     </>
   );
 }
