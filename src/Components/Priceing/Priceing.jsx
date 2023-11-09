@@ -8,7 +8,7 @@ export default function Priceing() {
     <div>
      
       <Navbars/>
-      <Footer/>
+      <Footer />
     </div>
   )
 }

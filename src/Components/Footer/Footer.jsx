@@ -25,10 +25,10 @@ export default function Footer() {
 </div>
 </div>
       {/* div for explore and other stuff */}
-<div className="container">
+<div className="container" >
 <div className="row">
     {/* div for explore coloumn */}
-    <div className="col-lg-3  mt-5">
+    <div className="col-lg-3  mt-5" >
         <h1 className="iiii">
         Explore Assignmentsold.ca
         <p className=" mt-4 ssss">
